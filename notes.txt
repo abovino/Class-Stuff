@@ -1,0 +1,9 @@
+Total element width = 554
+
+total element height = 569
+
+Google:
+.clearfix {
+	overflow: auto;
+}
+

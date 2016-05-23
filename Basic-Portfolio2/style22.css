@@ -1,0 +1,119 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	background-image: url("../images/scribble_light.png");
+	margin-top: -25px;
+}
+
+html, body {
+	height: 100%
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow:auto;
+	padding-bottom: 50px;
+}
+
+header {
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+}
+
+h1 {
+	background: #4aaaa5;
+	width: 30%;
+	text-align: center;
+	color: #ffffff;
+	padding: 25px;
+	margin-bottom: 0;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+nav {
+	position: relative;
+	float: right;
+	list-style: none;
+	color: #777777;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: #777777;
+}
+nav li {
+	position: relative;
+	display: inline;
+	padding: 20px;
+	padding-right: 2px;
+	top: 10px;
+}
+
+#content {
+	margin-top: 30px;
+}
+
+#content aside {
+	list-style: none;
+	background: #ffffff;
+	color: #4aaaa5;
+	position: relative;
+	float: right;
+	width: 270px;
+	border: 1px solid #dddddd;
+}
+	aside ul {
+		border-top: 1px solid #cccccc;
+		margin-top: 0px;
+		padding-top: 10px;
+		margin-left: 15px;
+		margin-right: 15px;
+		padding-left: 5px;
+	}
+
+
+	aside li {
+		display: inline;
+		padding-right: 10px;
+	}
+
+	h3 {
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		margin-left: 15px;
+		margin-bottom: 0px;
+		padding-bottom: 10px;
+	}
+
+article {
+	width: 650px;
+	background: #ffffff;
+	color: #777777;
+	border: 1px solid #dddddd;
+}
+
+	article h2 {
+		color: #4aaaa5;
+		border-bottom: 2px solid #cccccc;
+		padding-bottom: 20px;
+	}
+
+	article p, h2 {
+		width: 90%;
+		margin-left: 25px;
+		margin-bottom: 30px;
+		line-height: 1.5;
+	}
+
+footer {
+	position: relative;
+	margin-top: -50px;
+	max-height: 67px;
+	height: 100%;
+	clear:both;
+	text-align: center;
+	border-top: 8px solid #4aaaa5;
+	background: #666666;
+	color: lightgrey;
+}

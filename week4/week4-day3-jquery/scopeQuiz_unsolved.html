@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>lexicalScope</title>
+  </head>
+  <body style="">
+      
+      <script type="text/javascript">
+
+      	/* 
+      	Run this program. 
+      	Then turn to the person next to you and answer the questions:
+      		1. What is the difference between Situation 1 and Situation 2?
+      		2. How is this impacting the outcomes for each?
+      		3. Why are the alert messages different? 
+  		*/
+
+		// Situation 1
+		//---------- ---------- ---------- ----------
+		var myVar1 = 1;
+
+		function a1() {
+			myVar1 = 5 - 3;
+			b1();
+			alert("Q1 | a: " + myVar1);
+		}
+
+		function b1() {
+			alert("Q1 | b: " + myVar1);
+		}
+		a1();
+
+		//alert 1
+		//alert 2
+​
+		/* When the code is run the a() call looks inside function a... then stumbles into b(). This triggers two different alerts. The first alert(myVar) found in function a and the second a
+		/* Because when the code is ran lexically function b looks outside of it's scope to see myVar = 1 and alerted that, when function a is being called it created it's own local myVar and alerted that.*/
+
+
+		//Situation 2
+		//---------- ---------- ---------- ----------
+		var myVar2 = 1;
+
+		function a2() {
+			var myVar2 = 5 - 3;
+			b2();
+			alert("Q2 | a: " + myVar2);
+		}
+
+		function b2() {
+			alert("Q2 | b: " + myVar2);
+		}
+		a2();
+
+		//alert 1
+		//alert 2
+​
+		/* When the code is run the a() call looks inside function a... then stumbles into b(). This triggers two different alerts. The first alert(myVar) found in function a and the second a
+		/* Because when the code is ran lexically function b looks outside of it's scope to see myVar = 1 and alerted that, when function a is being called it created it's own local myVar and alerted that.*/
+​
+ 
+      </script>
+  </body>
+</html>

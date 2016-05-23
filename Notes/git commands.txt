@@ -1,0 +1,89 @@
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp
+$ git clone git@github.com:bov188/Practice.git
+Cloning into 'Practice'...
+Enter passphrase for key '/c/Users/Angel/.ssh/id_rsa':
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+Checking connectivity... done.
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp
+$ ls
+Practice/  Prework/  quickdemoapp/
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp
+$ cd quickdemoapp
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp/quickdemoapp (master)
+$ cd ..
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp
+$ explorer bootcamp
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp
+$ cd quickdemoapp
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp/quickdemoapp (master)
+$ touch  1.2.6-in-class-exercises.html
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp/quickdemoapp (master)
+$ ls
+1.2.6-in-class-exercises.html  README.md
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp/quickdemoapp (master)
+$ open .
+bash: open: command not found
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp/quickdemoapp (master)
+$ git add -A
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp/quickdemoapp (master)
+$ git commit -m "Message here"
+[master fcf751f] Message here
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 1.2.6-in-class-exercises.html
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp/quickdemoapp (master)
+$ git push origin master
+Enter passphrase for key '/c/Users/Angel/.ssh/id_rsa':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 301 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:bov188/quickdemoapp.git
+   abaa890..fcf751f  master -> master
+
+Angel@DESKTOP-AH2JIMV MINGW64 ~/desktop/bootcamp/quickdemoapp (master)
+$
+
+
+
+Google Web fonts
+
+
+
+
+body {
+		background-color: black;
+		font-family: verdana;
+		color: white;
+		text-align: center;
+	}
+	h1 {
+
+	}
+	h2 {
+
+	}
+	img {
+		width:220px;
+		height:220px;
+	}
+	p {
+		font-size: 12px;
+	}
+	ul {
+		margin-right: auto;
+		margin-left: auto;
+	}

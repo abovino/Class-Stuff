@@ -1,0 +1,24 @@
+.fixed {
+	background: grey;
+	width: 150px;
+	margin-right: 0 auto;
+	position: fixed;
+}
+
+#center {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.relative {
+	background: grey;
+	padding: 40px;
+	position: relative;
+}
+
+.absolute {
+	background: lightgrey;
+	padding: 20px;
+	position: absolute;
+	right: -10px;
+}

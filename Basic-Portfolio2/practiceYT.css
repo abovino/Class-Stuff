@@ -1,0 +1,128 @@
+body {
+	background-image: url("../basic-portfolio/assets/images/scribble_light.png");
+	margin: 0 0 80px;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+header {
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+div.header-box {
+	background-color: #ffffff;
+	margin: -10px -8px 0px -10px;
+	border-bottom: 2px solid #cccccc;
+}
+
+header h1 {
+	width: 325px;
+	display: flex;
+	height: 100%;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	margin-top: 0;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+nav {
+ 	float: right;
+ 	height: 80px;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
+
+nav a {
+	margin-left: 40px;
+	text-align: right;
+	text-decoration: none;
+	color: #777777;
+}
+
+div.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+section.content {
+	margin-top: 40px;
+}
+
+section aside {
+	width: 270px;
+	border: 1px solid #cccccc;
+	float: right;
+	background-color: #ffffff;
+}
+
+section aside h3 {
+	margin-left: 35px;
+	color: #4aaaa5;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 15px;
+	width: 200px;
+}
+
+section aside ul {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin-right: 40px;
+	margin-top: -8px;
+}
+section aside ul li {
+	list-style: none;
+	display: inline;
+	padding: 5px;
+}
+
+section article {
+	width: 650px;
+	background: #ffffff;
+	color: #777777;
+	border: 1px solid #cccccc;
+	line-height: 1.5;
+}
+
+section article h2 {
+	margin-left: 20px;
+	margin-top: 15px;
+	color: #4aaaa5;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 15px;
+	width: 605px;
+}
+
+section article img {
+	float: left;
+	margin-right: 15px;
+	margin-top: 7px;
+}
+
+section article p {
+	margin: -10px 15px 15px 20px;
+	width: 605px;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	border-top: 8px solid #4aaaa5;
+	background: #666666;
+	color: lightgrey;
+	font-size: x-small;
+}

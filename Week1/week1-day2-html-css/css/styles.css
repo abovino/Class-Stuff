@@ -1,0 +1,18 @@
+.container {
+
+}
+
+#main-bio {
+
+}
+
+img {
+	padding:1px;
+	border:1px solid #00FA9A;
+}
+
+body {
+	background: #000000;
+	color: #00FA9A;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+}

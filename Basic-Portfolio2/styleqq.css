@@ -1,0 +1,58 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	background-image: url("../images/scribble_light.png");
+}
+
+
+h2 {
+	background-color: #4aaaa5;
+	padding: 15px 5px;
+	width: 25%;
+	text-align: center;
+	color: #ffffff;
+}
+
+nav {
+	position: relative;
+	float: right;
+	list-style: none;
+	background: #ffffff;
+}
+
+	nav li {
+		display: inline;
+		padding: 15px;
+	}
+
+.container {
+	min-height: 100%;
+	height: auto;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+#content {
+
+}
+	#about-me {
+		width: 650px;
+	}
+
+ul#connect-me {
+	position: relative;
+	float: right;
+	list-style: none;
+	text-align: center;
+}
+
+	ul#connect-me li {
+		display: inline;
+		padding: 5px;
+	}
+
+.footer, .push {
+	position: fixed;
+	height: 4em;
+	margin: 0 auto;
+}
