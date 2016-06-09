@@ -1,0 +1,6 @@
+JS ALWAYS goes in Document.Ready
+
+Always use .on()
+	ex: $('#fizz').on('click', function() {})
+
+.on('click') vs. .one()
