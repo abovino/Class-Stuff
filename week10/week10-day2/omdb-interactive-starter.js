@@ -23,7 +23,7 @@ console.log(queryUrl);
 // Then create a request to the queryUrl
 // ...
 	request(queryUrl, function (error, response, body){
-		if (!error && response.statuscode == 200){
+		if (!error && response.statusCode == 200){
 			console.log("Release Year: " + JSON.parse(body)["Year"])
 		}
 	});
