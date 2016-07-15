@@ -15,3 +15,6 @@ INSERT INTO favorite_songs (song, artist, score) VALUES ("Aurora", "Ilane Bluest
 SELECT * FROM favorite_foods;
 SELECT * FROM favorite_movies;
 SELECT * FROM favorite_songs;
+
+INSERT INTO favorite_songs (song, artist, score) VALUES ("Spheres", "Ilan Bluestone", 10), ("Big Ben", "Ilan Bluestone", 10);
+
