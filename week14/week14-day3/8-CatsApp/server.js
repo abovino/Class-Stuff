@@ -23,8 +23,8 @@ app.engine('handlebars', exphbs({
 }));
 app.set('view engine', 'handlebars');
 
-var routes = require('./controllers/cats_controller.js');
+var routes = require('./controllers/controller.js');
 app.use('/', routes);
 
-var port = 3000;
+var port = 8080;
 app.listen(port);

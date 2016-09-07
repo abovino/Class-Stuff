@@ -1,0 +1,21 @@
+-Static file server
+
+-document.ready
+
+-window.load
+
+-callback
+  *function that gets called
+
+lexical scope 
+  function, curly brace, var
+
+root-relative
+
+/local
+//remote
+
+Closures
+  (function(){
+      console.log( "Hello!" );
+  })();
